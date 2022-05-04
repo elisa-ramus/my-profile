@@ -1,0 +1,69 @@
+body {
+	background-color: #FFEEEE;
+	color: #3C415C;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+h1 {
+	color: #FF6363;
+	font-family: 'Libre Bodoni', serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #FF6363;
+	font-family: 'Libre Bodoni', serif;
+	font-weight: 700;
+	font-size: 23px;
+	line-height: 1.7;
+	text-align: center;
+
+}
+
+a{
+	text-decoration: none;
+	color: #3C415C
+	font-weight: 500;
+	font-size: 14px;
+
+}
+a:hover{
+	color: #FF6363
+}
+
+.img-circle{
+	border-radius: 65%
+}
+
+.btn-purple{
+	background-color: #3C415C;
+	color: #FF6363;
+	padding: 10px 15px;
+	border-radius: 7px;
+}
+
+.btn-purple:hover {
+	background-color: #FF6363;
+	color: #3C415C;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+@media(max-width: 500px){
+	.div
+	widht : 400px;
+}
+
+@media(max-width: 760px){
+	.div
+	widht : 600px;
+}
